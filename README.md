@@ -1,6 +1,6 @@
 # Financial Application Calculator Module Test Automation Project
 
-This project contains the test automation for the calculator module developed for ABC Technology's financial application. The project is built using technologies like Selenium, Cucumber, JUnit, Gauge, and Maven.
+This project contains the test automation for the calculator module developed for ABC Technology's financial application. The project is built using technologies like Selenium, JUnit, Gauge, and Maven.
 
 ##  Project Description
 
@@ -11,7 +11,6 @@ This project aims to automate the functional and integration tests of the calcul
 *   **Java:** Programming language
 *   **Maven:** Project management tool
 *   **Selenium WebDriver:** For browser automation
-*   **Cucumber:** BDD test framework
 *   **JUnit:** Test running library
 *   **Gauge:** Test automation and reporting tool
 *   **WebDriverManager:** To manage browser drivers.
