@@ -1,33 +1,22 @@
-## About this template
+Financial Application Calculator Module Test Automation Project
+This project contains the test automation for the calculator module developed for ABC Technology's financial application. The project is built using technologies like Selenium, Cucumber, JUnit, Gauge, and Maven.
 
-This is a template to get started with a Gauge project that uses Selenium as the driver to interact with a web browser.
+Project Description
+This project aims to automate the functional and integration tests of the calculator module integrated into ABC Technology's financial application. The project uses Selenium WebDriver for testing the web-based interface, Cucumber for defining and running test scenarios, Gauge for test execution and report generation, and Maven for managing project dependencies. The project is designed in accordance with Behavior-Driven Development (BDD) principles.
 
-## Installing this template
+Technologies
+Java: Programming language
+Maven: Project management tool
+Selenium WebDriver: For browser automation
+Cucumber: BDD test framework
+JUnit: Test running library
+Gauge: Test automation and reporting tool
+WebDriverManager: To manage browser drivers.
+Installing this template
+Clone this project : bash git clone https://github.com/Mlhozgr/CalculatorModuleTester01
 
-    gauge --install java_maven_selenium
+Change directory: bash cd project-directory
 
-## Building on top of this template
+For dependiencies bash mvn clean install
+ 
 
-### Defining Specifications
-
-* This template includes a sample specification which opens up a browser and navigates to `Get Started` page of Gauge.
-* Add more specifications on top of sample specification.
-
-Read more about [Specifications](http://getgauge.io/documentation/user/current/specifications/README.html)
-
-### Writing the implementations
-
-This is where the java implementation of the steps would be implemented. Since this is a Selenium based project, the java implementation would invoke Selenium APIs as required.
-
-_We recommend considering modelling your tests using the [Page Object](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) pattern, and the [Webdriver support](https://github.com/SeleniumHQ/selenium/wiki/PageFactory) for creating them._
-
-- Note that every Gauge step implementation is annotated with a `Step` attribute that takes the Step text pattern as a parameter.
-Read more about [Step implementations in Java](http://getgauge.io/documentation/user/current/test_code/java/java.html)
-
-### Execution
-
-* You can execute the specification as:
-
-```
-mvn steps
-```
