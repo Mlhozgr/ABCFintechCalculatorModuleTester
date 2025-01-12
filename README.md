@@ -18,7 +18,7 @@ This project aims to automate the functional and integration tests of the calcul
 
 ## Installing this template
 
-    Clone this project : bash git clone https://github.com/Mlhozgr/CalculatorModuleTester01
+    Clone this project : bash git clone https://github.com/Mlhozgr/ABCFintechCalculatorModuleTester
 
     Change directory: bash cd project-directory
 
